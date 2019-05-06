@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zfy.adminService.dao.StuMapper" >
+    <sql id="stuColumns"> stu_id,stu_name,type_id,created_time,stu_member,stu_url,stu_des</sql>
+<update id="updateStu">
+update stu
+<trim prefix="SET" suffixOverrides=",">
+    <if test="stuName!=null and stuName!=''">
+    stu_name=#{stuName},
+</if>
+    <if test="typeId!=null and typeId!=''">
+    type_id=#{typeId},
+</if>
+    <if test="createdTime!=null">
+    created_time=#{createdTime},
+    </if>
+    <if test="stuMember!=null and stuMember!=''">
+    stu_member=#{stuMember},
+    </if>
+    <if test="stuUrl!=null and stuUrl!=''">
+    stu_url=#{stuUrl},
+    </if>
+    <if test="stuDes!=null and stuDes!=''">
+    stu_des=#{stuDes}
+    </if>
+    <trim prefix="WHERE" prefixOverrides="AND|OR">
+    stu_id=#{stuId}
+    </trim>
+</trim>
+</update>
+    <select id="selectByName" resultType="com.zfy.common.pojo.Stu">
+    select
+    <include refid="stuColumns">
+    </include>
+    from  stu where stu_name like #{stuName}
+    </select>
+</mapper>

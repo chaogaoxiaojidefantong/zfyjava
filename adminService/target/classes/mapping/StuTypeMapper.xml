@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zfy.adminService.dao.StuTypeMapper" >
+<select id="selectManyAndStu" resultType="hashmap">
+select a.type_id,a.type_name,b.stu_id,b.stu_name,b.created_time,b.stu_member,b.stu_url,b.stu_des from stu_type a join stu b on a.type_id=b.type_id
+</select>
+</mapper>

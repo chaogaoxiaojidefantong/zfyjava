@@ -1,0 +1,48 @@
+2019-05-04 13:07:54,771 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 13:08:06,114 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 12.432 seconds (JVM running for 58484.051)
+2019-05-04 18:42:44,681 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 18:42:55,645 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 13.903 seconds (JVM running for 78573.582)
+2019-05-04 18:54:55,122 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 18:55:05,187 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 12.971 seconds (JVM running for 79303.124)
+2019-05-04 19:01:29,449 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 19:01:42,549 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 15.774 seconds (JVM running for 79700.486)
+2019-05-04 19:02:28,539 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 19:02:38,879 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 13.724 seconds (JVM running for 79756.817)
+2019-05-04 19:17:27,002 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 19:17:38,850 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 15.468 seconds (JVM running for 80656.787)
+2019-05-04 19:18:36,221 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 19:19:50,922 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 19:20:02,278 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 14.99 seconds (JVM running for 80800.215)
+2019-05-04 19:21:28,970 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 19:21:41,357 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 15.946 seconds (JVM running for 80899.294)
+2019-05-04 19:54:58,583 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 19:55:11,807 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 16.254 seconds (JVM running for 82909.745)
+2019-05-04 19:56:14,295 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 19:56:25,368 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 13.842 seconds (JVM running for 82983.305)
+2019-05-04 20:11:08,085 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 21:12:34,573 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 21:13:00,315 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 31.182 seconds (JVM running for 33.854)
+2019-05-04 21:19:04,561 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 21:19:17,911 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 16.587 seconds (JVM running for 411.451)
+2019-05-04 21:19:30,235 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 21:19:41,537 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 14.608 seconds (JVM running for 435.076)
+2019-05-04 21:52:40,961 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 21:53:00,919 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 24.222 seconds (JVM running for 26.67)
+2019-05-04 21:55:51,135 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 21:56:08,757 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 22.306 seconds (JVM running for 24.797)
+2019-05-04 22:06:01,463 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 22:06:18,787 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 21.225 seconds (JVM running for 27.818)
+2019-05-04 22:07:04,727 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 22:07:18,979 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 19.34 seconds (JVM running for 21.922)
+2019-05-04 22:17:03,917 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 22:17:13,604 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 12.272 seconds (JVM running for 616.547)
+2019-05-04 22:41:41,135 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 22:41:56,449 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 20.29 seconds (JVM running for 24.32)
+2019-05-04 23:07:17,863 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 23:07:39,174 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 26.509 seconds (JVM running for 28.851)
+2019-05-04 23:07:47,680 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 23:07:59,004 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 14.044 seconds (JVM running for 48.681)
+2019-05-04 23:08:58,347 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 23:09:10,206 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 15.19 seconds (JVM running for 119.883)
+2019-05-04 23:09:51,247 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2019-05-04 23:10:04,664 INFO (StartupInfoLogger.java:57)- Started AdminServiceApp in 16.195 seconds (JVM running for 174.341)

@@ -1,5 +1,5 @@
 server:
-  port: 10001
+  port: 10002
 
 spring:
   profiles:
@@ -9,7 +9,6 @@ zuul:
   # 通过modbusZuul 映射到 应用名 是modbus ( 该modbus 会映射到多个 ip:端口 服务)
   routes:
     adminService: /api/adminServiceZuul/**
-    clientService: /api/clientServiceZuul/**
 
 
 

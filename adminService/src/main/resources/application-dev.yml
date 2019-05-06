@@ -4,7 +4,7 @@ spring:
     name: adminService
   datasource:
     name:
-    url: jdbc:mysql://localhost:3306/canteen?useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/zfy?useUnicode=true&characterEncoding=UTF-8
     username: root
     password:
     type: com.alibaba.druid.pool.DruidDataSource
@@ -54,8 +54,8 @@ eureka:
 #ribbon.eureka.enable: true
 
 file:
-  dir: D:/canteen-upload
-  url: http://image.xikecanteen.com
+  dir: D:/zfy-upload
+  url: http://resource.platform.com
 
 
 

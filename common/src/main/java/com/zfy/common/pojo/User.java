@@ -4,7 +4,6 @@ package com.zfy.common.pojo;
 public class User {
     private Long userId;
 
-    private String userPhone;
 
     private String userPwd;
 
@@ -17,7 +16,16 @@ public class User {
 
     private String verifyCode;
 
+    private Boolean userMember;
 
+
+    public Boolean getUserMember() {
+        return userMember;
+    }
+
+    public void setUserMember(Boolean userMember) {
+        this.userMember = userMember;
+    }
 
     public Long getUserId() {
         return userId;
@@ -27,13 +35,7 @@ public class User {
         this.userId = userId;
     }
 
-    public String getUserPhone() {
-        return userPhone;
-    }
 
-    public void setUserPhone(String userPhone) {
-        this.userPhone = userPhone == null ? null : userPhone.trim();
-    }
 
     public String getUserPwd() {
         return userPwd;

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zfy.adminService.dao.StuMapper" >
+  <resultMap id="BaseResultMap" type="com.zfy.common.pojo.Stu" >
+    <id column="stu_id" property="stuId" jdbcType="BIGINT" />
+    <result column="stu_name" property="stuName" jdbcType="VARCHAR" />
+    <result column="type_id" property="typeId" jdbcType="INTEGER" />
+    <result column="created_time" property="createdTime" jdbcType="DATE" />
+    <result column="stu_member" property="stuMember" jdbcType="BIT" />
+    <result column="stu_url" property="stuUrl" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    stu_id, stu_name, type_id, created_time, stu_member, stu_url
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from stu
+    where stu_id = #{stuId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from stu
+    where stu_id = #{stuId,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.zfy.common.pojo.Stu" >
+    insert into stu (stu_id, stu_name, type_id, 
+      created_time, stu_member, stu_url
+      )
+    values (#{stuId,jdbcType=BIGINT}, #{stuName,jdbcType=VARCHAR}, #{typeId,jdbcType=INTEGER}, 
+      #{createdTime,jdbcType=DATE}, #{stuMember,jdbcType=BIT}, #{stuUrl,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.zfy.common.pojo.Stu" >
+    insert into stu
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="stuId != null" >
+        stu_id,
+      </if>
+      <if test="stuName != null" >
+        stu_name,
+      </if>
+      <if test="typeId != null" >
+        type_id,
+      </if>
+      <if test="createdTime != null" >
+        created_time,
+      </if>
+      <if test="stuMember != null" >
+        stu_member,
+      </if>
+      <if test="stuUrl != null" >
+        stu_url,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="stuId != null" >
+        #{stuId,jdbcType=BIGINT},
+      </if>
+      <if test="stuName != null" >
+        #{stuName,jdbcType=VARCHAR},
+      </if>
+      <if test="typeId != null" >
+        #{typeId,jdbcType=INTEGER},
+      </if>
+      <if test="createdTime != null" >
+        #{createdTime,jdbcType=DATE},
+      </if>
+      <if test="stuMember != null" >
+        #{stuMember,jdbcType=BIT},
+      </if>
+      <if test="stuUrl != null" >
+        #{stuUrl,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.zfy.common.pojo.Stu" >
+    update stu
+    <set >
+      <if test="stuName != null" >
+        stu_name = #{stuName,jdbcType=VARCHAR},
+      </if>
+      <if test="typeId != null" >
+        type_id = #{typeId,jdbcType=INTEGER},
+      </if>
+      <if test="createdTime != null" >
+        created_time = #{createdTime,jdbcType=DATE},
+      </if>
+      <if test="stuMember != null" >
+        stu_member = #{stuMember,jdbcType=BIT},
+      </if>
+      <if test="stuUrl != null" >
+        stu_url = #{stuUrl,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where stu_id = #{stuId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.zfy.common.pojo.Stu" >
+    update stu
+    set stu_name = #{stuName,jdbcType=VARCHAR},
+      type_id = #{typeId,jdbcType=INTEGER},
+      created_time = #{createdTime,jdbcType=DATE},
+      stu_member = #{stuMember,jdbcType=BIT},
+      stu_url = #{stuUrl,jdbcType=VARCHAR}
+    where stu_id = #{stuId,jdbcType=BIGINT}
+  </update>
+</mapper>
